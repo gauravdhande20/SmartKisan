@@ -1,0 +1,26 @@
+[
+    {
+    "id":1,
+    "title":"AI Precision",
+    "description":"98% accuracy in detecting early-stage nutrient deficiencies.",
+    "icon":"qr"
+  },
+  {
+    "id":2,
+    "title":"Fast Delivery",
+    "description":"Integrated logistics network ensuring 24h delivery times.",
+    "icon":"rocker"
+  },
+  {
+    "id":3,
+    "title":"Expert Support",
+    "description":"24/7 access to agronomists for complex farming queries.",
+    "icon":"service"
+  },
+  {
+    "id":4,
+    "title":"Cost Savings",
+    "description":"Optimize fertilizer usage and reduce waste by up to 30%.",
+    "icon":"savings"
+  } 
+]

@@ -1,4 +1,5 @@
 import React from "react";
+import img1 from '../Photos/signin.jpg';
 
 const Signup = () => {
  
@@ -10,7 +11,7 @@ const Signup = () => {
         {/* Left Section */}
         <div className="bg-white rounded-2xl shadow-sm p-6 flex flex-col justify-between">
           <img
-            src="https://images.unsplash.com/photo-1592982537447-6c1c3a6b0a07"
+            src={img1}
             alt="Farmer"
             className="rounded-xl w-full h-80 object-cover"
           />
@@ -52,10 +53,7 @@ const Signup = () => {
           <form className="mt-6 space-y-4">
             <div>
               <label className="text-sm font-medium">Full Name</label>
-              <input
-                type="text"
-                placeholder="John Doe"
-                className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              <input type="text" placeholder="Enter your full name" className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
               />
             </div>
 
@@ -63,10 +61,7 @@ const Signup = () => {
               <label className="text-sm font-medium">
                 Phone Number (Primary Contact)
               </label>
-              <input
-                type="tel"
-                placeholder="+234 800 000 0000"
-                className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+              <input type="tel" placeholder="+234 800 000 0000" className="w-full mt-1 px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
               />
               <p className="text-xs text-gray-500 mt-1">
                 We’ll use this to send you analysis alerts and delivery updates.
@@ -74,11 +69,7 @@ const Signup = () => {
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <input
-                type="text"
-                placeholder="City, State"
-                className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
-              />
+              <input type="text" placeholder="City, State" className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500" />
 
               <select className="px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500">
                 <option>Select Type</option>
@@ -103,10 +94,7 @@ const Signup = () => {
               </p>
             </div>
 
-            <button
-              type="submit"
-              className="w-full bg-green-500 hover:bg-green-600 text-white py-2.5 rounded-lg font-medium transition"
-            >
+            <button type="submit" className="w-full bg-green-500 hover:bg-green-600 text-white py-2.5 rounded-lg font-medium transition">
               Create Account
             </button>
           </form>
