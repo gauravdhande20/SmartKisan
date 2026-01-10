@@ -6,7 +6,7 @@ import img3 from '../Photos/user3.jpg'
 function Herosec() {
   return (
     <>
-       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+       <div className="max-w-7xl mx-auto bg-[#edf7ee] px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
         {/* Left Content */}
         <div>

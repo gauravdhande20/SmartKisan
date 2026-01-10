@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Navsec() {
+function Navsec({ onLoginOpen }) {
   return (
     <>
      <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
@@ -18,9 +18,12 @@ function Navsec() {
           <li className="cursor-pointer hover:text-green-600">Contact</li>
         </ul>
 
-        <button className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium">
-          Sign Up / Login
-        </button>
+        <button
+        onClick={onLoginOpen}
+        className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium"
+      >
+        Sign Up / Login
+      </button>
       </nav>
       
     </>
