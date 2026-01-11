@@ -1,6 +1,10 @@
 import React from 'react'
-
-function Navsec({ onLoginOpen }) {
+import { CircleUser } from 'lucide-react';
+import { FaUserAlt } from "react-icons/fa";
+import Signup from './Signup';
+import { useNavigate } from "react-router-dom";
+function Navsec() {
+   const navigate = useNavigate();
   return (
     <>
      <nav className="max-w-7xl mx-auto flex items-center justify-between px-6 py-5">
@@ -18,12 +22,12 @@ function Navsec({ onLoginOpen }) {
           <li className="cursor-pointer hover:text-green-600">Contact</li>
         </ul>
 
-        <button
-        onClick={onLoginOpen}
-        className="bg-green-500 hover:bg-green-600 text-white px-5 py-2 rounded-full font-medium"
-      >
-        Sign Up / Login
-      </button>
+        <div
+           onClick={() => navigate('../Component/Signup')}
+          className="w-auto h-auto px-2 py-2 text-black bg-gray-300 rounded-full flex items-center justify-center text-3xl font-bold cursor-pointer hover:bg-green-600"
+        >
+          <FaUserAlt className='text-2xl font-extrabold text-green-400'/>
+        </div>
       </nav>
       
     </>
