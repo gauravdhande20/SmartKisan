@@ -95,7 +95,7 @@ const ImgRec = () => {
   };
 
   return (
-    <div className="flex justify-center items-center min-h-screen bg-[#f6fbf7] px-4">
+    <div className="flex justify-center items-center min-h-screen bg-[#f6fbf7] px-4 ">
       <div className="w-full max-w-xl bg-white border-2 border-dashed border-green-300 rounded-2xl p-8 text-center shadow-sm">
 
         <h2 className="text-lg font-semibold text-gray-800">

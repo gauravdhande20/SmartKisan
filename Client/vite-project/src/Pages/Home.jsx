@@ -7,6 +7,7 @@ import Footer from '../Component/Footer.jsx'
 
 
 function Home() {
+   
   return (
     <div>
       <Navsec />

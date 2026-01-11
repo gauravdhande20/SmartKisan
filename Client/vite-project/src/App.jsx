@@ -4,6 +4,7 @@ import Navsec from './Component/Navsec'
 import Signup from './Component/Signup'
 import Login from './Component/Login'
 import WeatherCasting from './Pages/WeatherCasting'
+import Analysis from './Pages/Analysis'
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Route path='/Component/Signup' element={<Signup />} />
       <Route path='/Component/Login' element={<Login />} />
       <Route path='/Pages/WeatherCasting' element={<WeatherCasting />} />
+      <Route path='/Pages/Analysis' element={<Analysis />} />
     </Routes>
       
 

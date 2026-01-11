@@ -1,9 +1,11 @@
-import React from 'react'
+import { useNavigate,Link } from "react-router-dom";
+import Analysis from "../Pages/Analysis";
 import img1 from '../Photos/user1.jpg'
 import img2 from '../Photos/user2.jpg'
 import img3 from '../Photos/user3.jpg'
 
 function Herosec() {
+  const navigate = useNavigate();
   return (
     <>
        <div className="max-w-7xl mx-auto bg-[#edf7ee] px-6 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -22,7 +24,7 @@ function Herosec() {
           </p>
 
           <div className="flex gap-4 mt-8">
-            <button className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
+            <button onClick={() => navigate('../Pages/Analysis')} className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-xl font-semibold shadow-lg">
               Start Analysis Now
             </button>
 
