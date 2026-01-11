@@ -1,7 +1,9 @@
-import React from "react";
+import { useNavigate,Link } from "react-router-dom";
 import img1 from '../Photos/signin.jpg';
+import Login from "./Login";
 
 const Signup = () => {
+  const login = useNavigate();
  
   return (
     <div className="min-h-screen bg-[#f6faf7] flex items-center justify-center px-4">
@@ -97,6 +99,15 @@ const Signup = () => {
             <button type="submit" className="w-full bg-green-500 hover:bg-green-600 text-white py-2.5 rounded-lg font-medium transition">
               Create Account
             </button>
+
+            <div>
+              <p className="text-center text-sm text-gray-600">
+                Already have an account?{" "}
+                <span  onClick={() => login('../Component/Login')} className="text-green-600 cursor-pointer">
+                  Log In
+                </span>
+              </p>
+            </div>
           </form>
         </div>
       </div>

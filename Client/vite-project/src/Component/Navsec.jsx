@@ -2,7 +2,7 @@ import React from 'react'
 import { CircleUser } from 'lucide-react';
 import { FaUserAlt } from "react-icons/fa";
 import Signup from './Signup';
-import { useNavigate } from "react-router-dom";
+import { useNavigate,Link } from "react-router-dom";
 function Navsec() {
    const navigate = useNavigate();
   return (
@@ -16,10 +16,10 @@ function Navsec() {
         </div>
 
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
-          <li className="cursor-pointer hover:text-green-600">Home</li>
-          <li className="cursor-pointer hover:text-green-600">How it Works</li>
-          <li className="cursor-pointer hover:text-green-600">Features</li>
-          <li className="cursor-pointer hover:text-green-600">Contact</li>
+          <Link to="/" className="cursor-pointer hover:text-green-600">Home</Link >
+          <Link to="/Pages/WeatherCasting" className="cursor-pointer hover:text-green-600">How it Works</Link>
+          <Link to="/Pages/WeatherCasting" className="cursor-pointer hover:text-green-600">Features</Link>
+          <Link to="/Pages/WeatherCasting" className="cursor-pointer hover:text-green-600">Contact</Link  >
         </ul>
 
         <div

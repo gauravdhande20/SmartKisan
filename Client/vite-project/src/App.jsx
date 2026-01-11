@@ -1,18 +1,22 @@
-import React from 'react'
+import { Routes, Route } from "react-router-dom"
 import Home from './Pages/Home'
 import Navsec from './Component/Navsec'
 import Signup from './Component/Signup'
 import Login from './Component/Login'
-// import WhyChoose from './Component/WhyChoose'
-// import ImgRec from './Component/ImgRec'
-import WeatherDashboard from './Component/WeatherDashboard'
+import WeatherCasting from './Pages/WeatherCasting'
 
 function App() {
   return (
-    <div>
-      <Home />
+    <>
+    <Routes>
+      <Route path='/' element={<Home />} />
+      <Route path='/Component/Signup' element={<Signup />} />
+      <Route path='/Component/Login' element={<Login />} />
+      <Route path='/Pages/WeatherCasting' element={<WeatherCasting />} />
+    </Routes>
+      
 
-    </div>
+    </>
   )
 }
 
