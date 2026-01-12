@@ -3,6 +3,7 @@ import Analysis from "../Pages/Analysis";
 import img1 from '../Photos/user1.jpg'
 import img2 from '../Photos/user2.jpg'
 import img3 from '../Photos/user3.jpg'
+import heroImg from '../Photos/herosec.jpg'
 
 function Herosec() {
   const navigate = useNavigate();
@@ -45,11 +46,11 @@ function Herosec() {
 
         {/* Right Image */}
         <div className="relative">
-          {/* <img
+          <img
             src={heroImg}
             alt="Farmer using mobile"
             className="rounded-3xl shadow-2xl"
-          /> */}
+          />
 
           <div className="absolute bottom-6 left-6 bg-white rounded-xl shadow-lg px-5 py-3 flex items-center gap-3">
             <div className="w-8 h-8 bg-green-100 text-green-600 rounded-full flex items-center justify-center">

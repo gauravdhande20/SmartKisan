@@ -1,6 +1,11 @@
 import React from 'react'
 import Navsec from '../Component/Navsec'
 import ImgmRec from '../Component/ImgRec'
+import Footer from '../Component/Footer'
+import img1 from '../Photos/img2.jpg'
+import UreaImage from '../Photos/UreaGranules (46-0-0)1.png'
+import Nitrogen from '../Photos/Nitrogen-Plus Bio Booster.png'
+import infect1 from '../Photos/Infect1.jpg'
 
 function Analysis() {
     return (
@@ -11,7 +16,7 @@ function Analysis() {
                 <div className="max-w-7xl mx-auto">
 
                     {/* Header */}
-                    <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6 gap-4">
+                    <div className="flex flex-col md:flex-row md:items-center md:justify-between  gap-4">
                         <div>
                             <h1 className="text-2xl font-bold text-gray-900">
                                 Crop Health Analysis
@@ -26,11 +31,18 @@ function Analysis() {
                     </div>
 
                     {/* Main Grid */}
+                            <ImgmRec className=" "/>
                     <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
+
+                        {/* letft column */}
+                        <div className="lg:col-span-1">
+                            <img src={img1} alt="" />
+
+                            </div>
+                          
 
                        
 
-                            <ImgmRec className=" "/>
                         
 
                         {/* RIGHT COLUMN */}
@@ -39,7 +51,7 @@ function Analysis() {
                             {/* Analysis Result */}
                             <div className="bg-white rounded-xl p-5 flex flex-col md:flex-row gap-4">
                                 <img
-                                    src="https://images.unsplash.com/photo-1524594162408-14f62c53f7fd"
+                                    src={infect1}
                                     alt="Crop"
                                     className="w-full md:w-40 h-40 object-cover rounded-lg"
                                 />
@@ -83,7 +95,7 @@ function Analysis() {
                                     <div className="bg-white rounded-xl p-4 flex items-center justify-between">
                                         <div className="flex items-center gap-4">
                                             <img
-                                                src="https://images.unsplash.com/photo-1587049352849-7fbb6f04b62b"
+                                                src={Nitrogen}
                                                 alt="Product"
                                                 className="w-14 h-14 rounded-lg object-cover"
                                             />
@@ -111,7 +123,7 @@ function Analysis() {
                                     <div className="bg-white rounded-xl p-4 flex items-center justify-between">
                                         <div className="flex items-center gap-4">
                                             <img
-                                                src="https://images.unsplash.com/photo-1616627982034-07a7f1a9b5e6"
+                                                src={UreaImage}
                                                 alt="Product"
                                                 className="w-14 h-14 rounded-lg object-cover"
                                             />
@@ -142,7 +154,9 @@ function Analysis() {
                     </div>
                 </div>
             </div>
+            <Footer />
         </div>
+        
     )
 }
 

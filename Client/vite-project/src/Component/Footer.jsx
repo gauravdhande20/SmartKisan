@@ -1,4 +1,7 @@
-import React from "react";
+import { Link } from "react-router-dom";
+import Home from "../Pages/Home.jsx";
+import Analysis from "../Pages/Analysis.jsx";
+import WeatherCasting from "../Pages/WeatherCasting.jsx";
 
 const Footer = () => {
   return (
@@ -24,10 +27,10 @@ const Footer = () => {
           {/* Platform */}
           <div>
             <h3 className="font-bold mb-4">Platform</h3>
-            <ul className="space-y-2 text-sm text-gray-600">
-              <li className="hover:text-green-600 cursor-pointer">How it Works</li>
-              <li className="hover:text-green-600 cursor-pointer">Pricing</li>
-              <li className="hover:text-green-600 cursor-pointer">Browse Products</li>
+            <ul className="space-y-2 text-sm text-gray-600 flex flex-col">
+              <Link to="/" className="hover:text-green-600 cursor-pointer">Home</Link>
+              <Link to="/Pages/Analysis" className="hover:text-green-600 cursor-pointer">Analysis</Link>
+              <Link to="/Pages/WeatherCasting" className="hover:text-green-600 cursor-pointer">Weather</Link>
             </ul>
           </div>
 
