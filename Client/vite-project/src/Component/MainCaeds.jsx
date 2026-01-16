@@ -12,7 +12,7 @@ function MainCaeds(props) {
     <>
     <div className='h-[58vh] w-[45vh] mr-auto ml-auto mt-10 rounded-3xl bg-[#ffffff] flex items-center flex-col relative shadow-lg hover:shadow-2xl hover:scale-105 duration-300 cursor-pointer'>
             <div className="w-[100%] h-[75%] rounded-2xl bg-center bg-cover flex justify-between" style={{ backgroundImage: `url(${props.url})` }}>
-              <div className='h-auto w-auto  bg-[#13ed13]  absolute px-3 py-1.5 top-3 left-5 rounded-[10px] flex justify-center items-center' style={{ backgroundColor: `${props.color}`, display: props.offer }}>
+              <div className='h-auto w-auto    absolute px-3 py-1.5 top-3 left-5 rounded-[10px] flex justify-center items-center' style={{ backgroundColor: `${props.color}`, display: props.displ }}>
                 <h1 className='text-[10px] font-extrabold text-black '>{props.off}</h1>
               </div>
               {/* <div className='h-9 w-9 rounded-full bg-[#6e4d42] flex justify-center items-center absolute  top-3 right-5'><CiHeart className='text-amber-50 text-2xl ' /></div> */}

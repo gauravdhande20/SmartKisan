@@ -24,8 +24,7 @@
         "prv_price":"4.6",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#13ed13",
-        "off":"Best Seller"
+       "displ":"none"
         
     },
      {
@@ -67,8 +66,7 @@
         "prv_price":"5.0",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#13ed13",
-        "off":"Best Seller"
+        "displ":"none"
         
     },
     {
@@ -81,7 +79,7 @@
         "prv_price":"5.0",
         "color":"#13ed13",
         "dic":"High phosphorus blend ideal for early root development in cereal...",
-        "off":"Best Seller"
+        "displ":"none"
         
     }
     ,{
@@ -95,7 +93,9 @@
         "tagline":"best seller",
         "quantity":"1kg Pack",
         "color":"#13ed13",
-        "off":"Best Seller"
+        "off":"Best Seller",
+        "displ":"none"
+
         
     }
 
