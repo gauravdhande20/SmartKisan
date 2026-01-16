@@ -6,11 +6,12 @@ import Cards from '../../public/Cards.json';
 function ShopeCards() {
   return (
     <div>
-      <section className='w-full h-auto bg-[#fff8e0] pb-7 '>
+      <section className='w-full h-auto  pb-7 '>
 
-        <div className="headingSec flex justify-between items-center pt-7 pb-7 ml-10 mr-10">
-            <div className='text-[#6e4d42] font-bold text-2xl'>Shop by Category</div>
-            <div className='text-[#6e4d42] font-bold flex items-center gap-2'>View All Categories <IoIosArrowRoundForward className='text-3xl font-extrabold' /></div>
+        <div className="headingSec flex flex-col  pt-7 pb-7 ml-10 mr-10">
+            <div className='text-black font-extrabold text-3xl'>Fertilizer Catalog</div>
+            <div className='text-[#96b096] font-extraboldbold flex items-center mt-3 pr-78 gap-2'>Browse our premium selection of fertilizers optimized for specific crops and soil
+conditions. Boost your yield with scientifically formulated nutrients.</div>
         </div>
         <div>
             {/* category cards */}
@@ -21,8 +22,12 @@ function ShopeCards() {
                         <MainCaeds
                         key={category.id}
                         url={category.url}
-                            title={category.title}
-                            desc={category.desc}
+                            Name={category.Name}
+                            dic={category.dic}
+                            Catg={category.Catg}
+                            price={category.price}
+                            prv_price={category.prv_price}
+                            off={category.off}
                         />
                         )
                     }

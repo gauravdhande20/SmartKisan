@@ -10,7 +10,7 @@
         "prv_price":"4.8",
         "tagline":"",
         "quantity":"1kg Pack",
-        "color":"#ffffff",
+        "color":"#13ed13",
         "off":"WOMEN'S COLLECTIVE"
         
     },
@@ -24,7 +24,7 @@
         "prv_price":"4.6",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     },
@@ -38,7 +38,7 @@
         "prv_price":"4.6",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     }
@@ -53,7 +53,7 @@
         "prv_price":"4.6",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     },
@@ -67,7 +67,7 @@
         "prv_price":"5.0",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     },
@@ -79,7 +79,8 @@
         "url":"./../src/Photos/CarbendazimFungicide1.png",
         "price":"$27.0",
         "prv_price":"5.0",
-        "color":"#31e87a",
+        "color":"#13ed13",
+        "dic":"High phosphorus blend ideal for early root development in cereal...",
         "off":"Best Seller"
         
     }
@@ -93,14 +94,14 @@
         "prv_price":"4.1",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     }
 
     
     ,{
-        "id":7,
+        "id":8,
         "location":"East India",
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
@@ -109,7 +110,7 @@
         "prv_price":"4.1",
         "tagline":"best seller",
         "quantity":"1kg Pack",
-        "color":"#31e87a",
+        "color":"#13ed13",
         "off":"Best Seller"
         
     }
