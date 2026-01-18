@@ -7,6 +7,7 @@ import WeatherCasting from './Pages/WeatherCasting'
 import Analysis from './Pages/Analysis'
 // import ShopeCards from "./Component/ShopeCards"
 import ContHero from "./Component/ContHero"
+import ContacSection from "./Component/ContacSection"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
     </Routes> */}
       {/* <ShopeCards /> */}
 <ContHero />
+<ContacSection />
     </>
   )
 }
