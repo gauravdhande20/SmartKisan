@@ -9,12 +9,11 @@ function WeatherHero() {
                {/* Left Side Content */}
                <div className="space-y-6 pl-15 mt-26">
                  <h1 className="text-3xl md:text-5xl font-bold text-white leading-tight">
-                   “Shop Smart. <br /> Shop Easy."
+                   “Stay Ahead <br /> of the Weather”
                  </h1>
        
                  <p className="text-gray-100 text-sm md:text-base">
-                  Discover top products, exclusive deals, and a seamless shopping experience designed to make your life easier.
-       
+Get real-time weather updates, forecasts, and conditions for any location—accurate, fast, and reliable.       
                  </p>
        
                  

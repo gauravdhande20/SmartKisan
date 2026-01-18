@@ -6,11 +6,13 @@ import img1 from '../Photos/img2.jpg'
 import UreaImage from '../Photos/UreaGranules (46-0-0)1.png'
 import Nitrogen from '../Photos/Nitrogen-Plus Bio Booster.png'
 import infect1 from '../Photos/Infect1.jpg'
+import AnanlysHero from '../Component/AnanlysHero'
 
 function Analysis() {
     return (
         <div>
             <Navsec />
+            <AnanlysHero />
             {/* <ImgmRec /> */}
             <div className="bg-[#f6faf7] min-h-screen px-4 py-6">
                 <div className="max-w-7xl mx-auto">

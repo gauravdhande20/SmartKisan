@@ -17,9 +17,9 @@
      {
         "id":2,
         "location":"South India",
-        "Catg":"Eco Products Green Earth",
-        "Name":"Organic Soy Wax Candles",
-        "url":"./../src/Photos/CarbendazimFungicide1.png",
+        "Catg":"1kg ",
+        "Name":"Ferrous Sulphate Fertilizer",
+        "url":"./../src/Photos/shopping.webp",
         "price":"$18.50",
         "prv_price":"4.6",
         "tagline":"best seller",
@@ -115,7 +115,7 @@
         
     }
     ,{
-        "id":8,
+        "id":9,
         "location":"East India",
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
@@ -129,7 +129,7 @@
         
     }
     ,{
-        "id":8,
+        "id":10,
         "location":"East India",
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
@@ -143,7 +143,7 @@
         
     }
     ,{
-        "id":8,
+        "id":11,
         "location":"East India",
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
@@ -157,7 +157,7 @@
         
     }
     ,{
-        "id":8,
+        "id":12,
         "location":"East India",
         "Catg":"Fruites",
         "Name":"Organic Red Apples",
