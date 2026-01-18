@@ -114,4 +114,60 @@
         "off":"Best Seller"
         
     }
+    ,{
+        "id":8,
+        "location":"East India",
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/Photos/CarbendazimFungicide1.png",
+        "price":"$19.0",
+        "prv_price":"4.1",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#13ed13",
+        "off":"Best Seller"
+        
+    }
+    ,{
+        "id":8,
+        "location":"East India",
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/Photos/CarbendazimFungicide1.png",
+        "price":"$19.0",
+        "prv_price":"4.1",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#13ed13",
+        "off":"Best Seller"
+        
+    }
+    ,{
+        "id":8,
+        "location":"East India",
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/Photos/CarbendazimFungicide1.png",
+        "price":"$19.0",
+        "prv_price":"4.1",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#13ed13",
+        "off":"Best Seller"
+        
+    }
+    ,{
+        "id":8,
+        "location":"East India",
+        "Catg":"Fruites",
+        "Name":"Organic Red Apples",
+        "url":"./../src/Photos/CarbendazimFungicide1.png",
+        "price":"$19.0",
+        "prv_price":"4.1",
+        "tagline":"best seller",
+        "quantity":"1kg Pack",
+        "color":"#13ed13",
+        "off":"Best Seller"
+        
+    }
 ]

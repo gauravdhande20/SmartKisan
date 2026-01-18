@@ -18,6 +18,7 @@ function Navsec() {
         <ul className="hidden md:flex gap-8 text-gray-700 font-medium">
           <Link to="/" className="cursor-pointer hover:text-green-600">Home</Link >
           <Link to="/Pages/Analysis" className="cursor-pointer hover:text-green-600">Analysis</Link>
+          <Link to="/Pages/Shop" className="cursor-pointer hover:text-green-600">Shop</Link>
           <Link to="/Pages/WeatherCasting" className="cursor-pointer hover:text-green-600">Weather</Link>
           <Link to="/Pages/ContactUs" className="cursor-pointer hover:text-green-600">Contact</Link  >
         </ul>

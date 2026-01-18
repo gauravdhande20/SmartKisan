@@ -5,7 +5,7 @@ import Signup from './Component/Signup'
 import Login from './Component/Login'
 import WeatherCasting from './Pages/WeatherCasting'
 import Analysis from './Pages/Analysis'
-// import ShopeCards from "./Component/ShopeCards"
+import Shop from './Pages/Shop'
 import ContactUs from './Pages/ContactUs'
 
 function App() {
@@ -17,9 +17,10 @@ function App() {
       <Route path='/Component/Login' element={<Login />} />
       <Route path='/Pages/WeatherCasting' element={<WeatherCasting />} />
       <Route path='/Pages/Analysis' element={<Analysis />} />
+      <Route path='/Pages/Shop' element={<Shop />} /> 
       <Route path='/Pages/ContactUs' element={<ContactUs />} />
     </Routes>
-      {/* <ShopeCards /> */}
+      
 
     </>
   )

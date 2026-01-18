@@ -4,7 +4,7 @@ import Img2 from '../Photos/ContHero.jpg'
 
 function ContHero() {
   return (
-      <div className="w-full min-h-screen bg-white flex items-center md:px-12">
+      <div className="w-full mt-6 bg-white flex items-center md:px-12 mb-15">
       <div className="h-[60vh]  grid grid-cols-1 md:grid-cols-2 gap-10 items-center rounded-2xl" style={{backgroundImage: `url(${Img2})`,backgroundRepeat:"no-repeat",backgroundSize:"cover",backgroundPosition:"center"}}>
 
         {/* Left Side Content */}
