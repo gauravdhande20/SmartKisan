@@ -6,22 +6,21 @@ import Login from './Component/Login'
 import WeatherCasting from './Pages/WeatherCasting'
 import Analysis from './Pages/Analysis'
 // import ShopeCards from "./Component/ShopeCards"
-import ContHero from "./Component/ContHero"
-import ContacSection from "./Component/ContacSection"
+import ContactUs from './Pages/ContactUs'
 
 function App() {
   return (
     <>
-    {/* <Routes>
+    <Routes>
       <Route path='/' element={<Home />} />
       <Route path='/Component/Signup' element={<Signup />} />
       <Route path='/Component/Login' element={<Login />} />
       <Route path='/Pages/WeatherCasting' element={<WeatherCasting />} />
       <Route path='/Pages/Analysis' element={<Analysis />} />
-    </Routes> */}
+      <Route path='/Pages/ContactUs' element={<ContactUs />} />
+    </Routes>
       {/* <ShopeCards /> */}
-<ContHero />
-<ContacSection />
+
     </>
   )
 }
