@@ -3,6 +3,7 @@ import { IoIosArrowRoundForward } from "react-icons/io";
 import MainCaeds from './MainCaeds';
 import Cards from '../../public/Cards.json';
 
+
 function ShopeCards() {
     return (
         <div>
@@ -16,7 +17,24 @@ function ShopeCards() {
                 <div>
                     {/* category cards */}
                     <div className='w-full h-auto pb-12 flex '>
-                        <div className='w-[25vw] bg-amber-50 '></div>
+                        <div className='w-[25vw] bg-amber-50 '>
+                            <div className='w-full h-[90px] '>
+                                <h1 className='text-2xl font-bold ml-10 pt-7'>Crop Type</h1>
+                                <div className='  pl-5 '>
+                                    <div><input type="checkbox" name="cropType" id="" />
+                                        <label className='ml-2 text-lg font-medium'>Wheat</label></div>
+
+                                        <div><input type="checkbox" name="cropType" id="" />
+                                    <label className='ml-2 text-lg font-medium'>Rice</label></div>
+
+                                    
+                                    <input type="checkbox" name="cropType" id="" />
+                                    <label className='ml-2 text-lg font-medium'>Cotton</label>
+
+                                </div>
+
+                            </div>
+                        </div>
                         <div className='w-[75vw] '>
                             <div className='w-full h-[90px] '></div>
                             <div className='w-full h-auto flex justify-center flex-wrap gap-8  '>
