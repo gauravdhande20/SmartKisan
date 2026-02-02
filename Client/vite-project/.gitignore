@@ -8,6 +8,10 @@ pnpm-debug.log*
 lerna-debug.log*
 
 
+node_modules/
+Cards.json
+.env
+.env.*.local
 
 dist
 dist-ssr
